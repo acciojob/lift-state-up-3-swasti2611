@@ -9,7 +9,7 @@ const ChildComponent1 = (props) => {
     <div >
       <div style={{width:'900px',height:'200px',textAlign:'center',backgroundColor:'orange',color:'black',marginLeft:'50px',marginTop:'50px'}}>
                <h1 >Child Component 1</h1> 
-               <button onClick={handleClick}>Option1</button> 
+               <button onClick={handleClick}>Option 1</button> 
       </div>
     </div>
   )

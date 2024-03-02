@@ -5,8 +5,8 @@ import ChildComponent1 from "./ChildComponent1";
 import ChildComponent2 from "./ChildComponent2";
 
 const App = () => {
-  let value1="Option1";
-  let value2="Option2"
+  let value1="Option 1";
+  let value2="Option 2"
   const [selectedOption,setselectedOption]=useState(" ")
 
   function handleOption(value){
