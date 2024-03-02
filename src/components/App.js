@@ -13,7 +13,7 @@ const App = () => {
     setselectedOption(value)
   }
   return (
-    <div  style={{width:'1000px',height:'800px',backgroundColor:'green'}}>
+    <div className="parent" >
     <h1>Parent Component</h1>
     <div>
       <ChildComponent1 handleOption={handleOption} value={value1}/>
